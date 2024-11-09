@@ -3,10 +3,14 @@ body{
     padding: 0;
     background: #f8f8f8;
 }
-a,li{
+li{
     text-decoration: none;
     list-style: none;
 }
+a{
+    text-decoration: none;
+}
+/* Button */
 .button{
     position: absolute;
     font-size: 20px;

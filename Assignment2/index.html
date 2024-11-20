@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="CSS Assigment 2">
+        <title>Assignment 2: How sweet is This</title>
+        <meta name="robots" content="noindex, nofollow">
+        <!--add CSS-->
+        <link rel="stylesheet" href="./css/style.css">
+        <!-- add fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Chewy&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Pangolin&display=swap" rel="stylesheet">
+        <!--add fontawesome-->
+        <script src="https://kit.fontawesome.com/627852edbd.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+         <header>
+             <!-- Desktop header -->
+             <div class="desktop">
+                 <!-- Logo -->
+                 <div class="header-logo">
+                     <a href="index.html"><img src="./img/candy-logo.jpeg" alt="M&Ms logo"></a>
+                 </div>
+                 <div>
+                     <!-- Navigation -->
+                     <nav>
+                         <menu>
+                             <li><a href="#" target="_self">Home</a></li>
+                             <li><a href="#" target="_self">About</a></li>
+                             <li><a href="#" target="_self">Contact Us</a></li>
+                             <li><a href="#" target="_self">Log In</a> / <a href="#">Sign Up</a></li>
+                         </menu>
+                     </nav>
+                 </div>
+                 <!-- Search Bar-->
+                 <div class="search-bar">
+                     <input class="search-input" type="text" placeholder="Search...">
+                     <i class="fa-solid fa-magnifying-glass"></i>
+                 </div>
+                 <!-- Cart -->
+                 <div class="cart">
+                     <i class="fa-solid fa-cart-shopping"></i>
+                 </div>
+             </div>
+             <!-- Mobile header -->
+             <div class="mobile">
+                 <div>
+                     <a href="index.html"><img src="./img/candy-logo.jpeg" alt="M&Ms logo"></a>
+                 </div>
+                 <div>
+                     <input id="candy" type="checkbox">
+                     <label for="candy">
+                         <span></span>
+                         <span></span>
+                         <span></span>
+                     </label>
+                     <nav>
+                         <menu>
+                             <li><a href="#" target="_self">Home</a></li>
+                             <li><a href="#" target="_self">About</a></li>
+                             <li><a href="#" target="_self">Contact Us</a></li>
+                             <li><a href="#" target="_self">Log In</a> / <a href="#">Sign Up</a></li>
+                             <li><a href="#" target="_self">Cart <i class="fa-solid fa-cart-shopping"></i></a></li>
+                             <li><a href="#" target="_self">Search <i class="fa-solid fa-magnifying-glass"></i></a></li>
+                         </menu>
+                     </nav>
+                 </div>
+             </div>
+         </header>
+         <!-- Masthead -->
+         <section class="candy-masthead">
+            <video muted autoplay loop>
+               <source src="./video/candy-masthead.mp4" type="video/mp4">
+            </video>
+            <div class="masthead-text">
+                <h1>Brighten Your Day, One <span class="purple">C</span><span class="blue">o</span><span class="green">l</span><span class="lemon">o</span><span class="yellow">r</span><span class="orange">f</span><span class="red">u</span>l Bite At a Time!</h1>
+               <a class="shop-button" href="#">
+                  <svg><rect></rect></svg>Shop Now
+               </a>
+            </div>
+         </section>
+         <main>
+             <!-- PRODUCTS -->
+             <!-- First Section - Jars text-->
+             <section class="jars-text">
+                 <h2>M&M's Jars: Sweet Moments in Every Scoop!</h2>
+                 <p>Packed with festive charm, spooky fun, creamy indulgence, and pantry-perfect sizes, M&M's jars bring the perfect blend of fun and flavor to your home. Whether you're indulging solo or sharing with friends, these jars make every moment sweet and more memorable.</p>
+             </section>
+             <!-- Second Section - Jars image and content-->
+             <section class="jars-image">
+                 <div class="jars-content">
+                     <a href="#">
+                         <img src="./img/red-jar.jpeg" alt="Red Jar of Candies">
+                         <h3>Price: $15.45</h3>
+                         <p>M&M's Chocolate Candy Bulk Jar, Peanut Butter Milk Chocolate Candy (55 oz.)</p>
+                         <p class="add-to-cart">Add To Cart</p>
+                     </a>
+                 </div>
+                 <div class="jars-content">
+                     <a href="#">
+                         <img src="./img/yellow-jar.jpeg" alt="Yellow Jar of Candies">
+                         <h3>Price: $15.45</h3>
+                         <p>M&M's Peanut Pantry Chocolate Candies Jar (62 oz.)</p>
+                         <p class="add-to-cart">Add To Cart</p>
+                     </a>
+                 </div>
+                 <div class="jars-content">
+                     <a href="#">
+                         <img src="./img/green-jar.jpeg" alt="Green Jar of Candies">
+                         <h3>Price: $15.45</h3>
+                         <p>Mars M&M's Holiday Mix Candy Bulk Jar, Milk Chocolate Candy (62 oz.)</p>
+                         <p class="add-to-cart">Add To Cart</p>
+                     </a>
+                 </div>
+                 <div class="jars-content">
+                     <a href="#">
+                         <img src="./img/purple-jar.jpeg" alt="Purple Jar of Candies">
+                         <h3>Price: $15.45</h3>
+                         <p>M&M's Halloween Ghouls Mix Candy Bulk Jar, Milk Chocolate Candy (62 oz.)</p>
+                         <p class="add-to-cart">Add To Cart</p>
+                     </a>
+                 </div>
+             </section>
+             <!-- Third Section - Minis text-->
+             <section class="minis-text">
+                 <h2>M&M's Minis: Big Flavor in Every Tiny Bite!</h2>
+                 <p>From caramel delights to creamy peanut butter and classic milk chocolate, M&M's Minis sharing bags pack vibrant flavors into every bite. Whether you love the crunch of almonds, the nutty goodness of peanuts, or the smoothness of milk chocolate, there's a Mini for every craving. Perfect for snacking, sharing, or adding a pop of color to your treats, these little candies bring big smiles to every moment!</p>
+             </section>
+             <!-- Fourth Section - Minis image and content-->
+             <section class="minis-image">
+                 <div class="minis-content">
+                     <a href="#">
+                         <img src="./img/navy-blue-mini.jpeg" alt="Navy Blue Pack of Candies">
+                         <h3>Price: $5.45</h3>
+                         <p>Caramel Milk Chocolate Candies, Sharing Bag (155g)</p>
+                         <p class="add-to-cart">Add To Cart</p>
+                     </a>
+                 </div>
+                 <div class="minis-content">
+                     <a href="#">
+                         <img src="./img/yellow-mini.jpeg" alt="Yellow Pack of Candies">
+                         <h3>Price: $5.45</h3>
+                         <p>M&M's Peanut Milk Chocolate Candies, Sharing Bag (165g)</p>
+                         <p class="add-to-cart">Add To Cart</p>
+                     </a>
+                 </div>
+                 <div class="minis-content">
+                     <a href="#">
+                         <img src="./img/beige-mini.jpeg" alt="Beige Pack of Candies">
+                         <h3>Price: $5.45</h3>
+                         <p>M&M's Almond Milk Chocolate Candies, Sharing Bag (155g)</p>
+                         <p class="add-to-cart">Add To Cart</p>
+                     </a>
+                 </div>
+                 <div class="minis-content">
+                     <a href="#">
+                         <img src="./img/brown-mini.jpeg" alt="Brown Pack of Candies">
+                         <h3>Price: $5.45</h3>
+                         <p>M&M's Milk Chocolate Candies, Sharing Bag (165g)</p>
+                         <p class="add-to-cart">Add To Cart</p>
+                     </a>
+                 </div>
+                 <div class="minis-content">
+                     <a href="#">
+                         <img src="./img/blue-mini.jpeg" alt="Blue Pack of Candies">
+                         <h3>Price: $5.45</h3>
+                         <p>M&M's Mini Milk Chocolate Candies, Sharing Bag (165g)</p>
+                         <p class="add-to-cart">Add To Cart</p>
+                     </a>
+                 </div>
+                 <div class="minis-content">
+                     <a href="#">
+                         <img src="./img/red-mini.jpeg" alt="Red Pack of Candies">
+                         <h3>Price: $5.45</h3>
+                         <p>Peanut Butter Milk Chocolate Candies, Sharing Bag (165g)</p>
+                         <p class="add-to-cart">Add To Cart</p>
+                     </a>
+                 </div>
+             </section>
+             <!-- Fifth Section - Final text-->
+             <section class="final-text">
+                 <h2>Stock Up & Savor The Sweetness!</h2>
+                 <p>Stock up on your favorite varieties and enjoy M&M’s in a way that's both convenient and irresistibly delicious. Perfect for sharing, gifting, or keeping all to yourself!</p>
+             </section>
+         </main>
+         <footer>
+             <!-- Footer Logo -->
+             <div class="footer-logo-socials-copyright">
+                 <div class="footer-logo">
+                     <a href="index.html"><img src="./img/candy-logo.jpeg" alt="M&Ms logo"></a>
+                 </div>
+                 <div class="socials">
+                     <h6>Connect</h6>
+                     <nav>
+                         <menu>
+                             <li><a href="#" target="_self"><i class="fa-brands fa-square-facebook"></i></a></li>
+                             <li><a href="#" target="_self"><i class="fa-brands fa-square-instagram"></i></a></li>
+                             <li><a href="#" target="_self"><i class="fa-brands fa-x-twitter"></i></a></li>
+                             <li><a href="#" target="_self"><i class="fa-brands fa-tiktok"></i></a></li>
+                             <li><a href="#" target="_self"><i class="fa-brands fa-youtube"></i></a></li>
+                             <li><a href="#" target="_self"><i class="fa-brands fa-telegram"></i></a></li>
+                         </menu>
+                     </nav>
+                 </div>
+                 <div class="copyright">
+                     <p>© 2024 M&M's Candy. All Rights Reserved.</p>
+                 </div>
+             </div>
+             <!-- Company Information -->
+             <div class="company-information">
+                 <h5>Company Information</h5>
+                 <div class="company-info">
+                     <p>M&M's Candy</p>
+                     <p>123 Candy Lane, Sweet City, CA 98765</p>
+                 </div>
+                 <div class="contact-info">
+                     <h6>Contact Information</h6>
+                     <p>Email: info@candycompany.gmail</p>
+                     <p>Phone: (123) 456-7890</p>
+                 </div>
+             </div>
+             <!-- Contact Form -->
+             <div class="contact-form">
+                 <h5>CONTACT US</h5>
+                 <form method="post">
+                     <p><input type="text" placeholder="Your Name" name="customer-name"></p>
+                     <p><input type="email" placeholder="Your Email" name="customer-email"></p>
+                     <p><textarea placeholder="Type A Message"></textarea></p>
+                     <input type="submit" value="Submit">
+                 </form>
+             </div>
+         </footer>
+    </body>
+</html>
